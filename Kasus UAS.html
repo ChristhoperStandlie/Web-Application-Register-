@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Register Alibaba</title>
+	<link rel="stylesheet" type="text/css" media="all" href="tampilanalibaba.css">
+</head>
+
+<body data-spm="520000001">
+<script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=0bc1094c16271986921028965e46e6&asid=AQAAAADkFP1giRYrbAAAAAC4BVlDQs7rGg==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_int.js")
+</script> 
+
+<div class="account-header">
+   <center> <h2>Create Your Alibaba Cloud Account</h2></center>
+     <center><p>Free Access to Over 50 Products and Up to 12 Months Usage for Elastic Compute Service!</p></center>
+</div>
+
+<p class="benefit">
+<img src:<img src="https://img.alicdn.com/tfs/TB1t2bavV67gK0jSZPfXXahhFXa-200-200.png">
+"Account Benefits"
+</p>
+
+  <div class="login">
+	
+    <select id="ddselect">
+      <option>Indonesia</option>
+      <option>Malaysia</option>
+      <option>Singapore</option>
+      <option>Filipina</option>
+      <option>Thailand</option>
+      <option>Brunei</option>
+      <option>Amerika</option>
+      <option>Korea Utara</option>
+      <option>Kamboja</option>
+      <option>Australia</option>
+      </select>
+
+  <div class="input-box">
+    <span class="warn-icon">
+      <svg t="1496395775831" class="icon" style="col: c;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1310" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15">
+          <path d="M1024 512A512 512 0 1 1 0 512a512 512 0 0 1 1024 0zM512 96a416 416 0 1 0 0 832 416 416 0 0 0 0-832z" p-id="1311"></path>
+          <path d="M464 256h96v96h-96zM464 448h96v320h-96z" p-id="1312"></path>
+      </svg>
+  </span>
+    <span>Country/region will be used for currency and tax purposes and cannot be changed after registration.</span>
+</div>
+
+<form id="form" action="#">
+<div class="input-box">
+<input type="text" name="" id="email" placeholder="Enter your email" onkeydown="validation()">
+<span id="text"></span>
+</div>
+</form>
+<script type="text/javascript">
+function validation()
+{
+  var form = document.getElementById("form");
+  var email = document.getElementById("email").value;
+  var text = document.getElementById("text");
+  var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+  if (email.match(pattern))
+  {
+    form.classList.add("valid");
+    form.classList.remove("invalid");
+    text.innerHTML = "Your Email Address in Valid";
+    text.style.color = "#00ff00";
+  }
+  else
+  {
+    form.classList.remove("valid");
+    form.classList.add("invalid");
+    text.innerHTML = "Please enter a valid email address that consists of only letters, numbers, periods, and the @ sign.";
+    text.style.color = "#ff0000";
+  }
+  if (email == "")
+  {
+    form.classList.remove("valid");
+    form.classList.remove("invalid");
+    text.innerHTML = "";
+    text.style.color = "#00ff00";
+  }
+}
+</script>
+
+<form>
+
+<div class="input-box">
+<input type="password" id="password" placeholder="Enter your password"> 
+</div>
+
+
+<div class="input-box">
+<input type="password" id="confirmpassword" placeholder="Confirm your password">
+<p id="message"></p>
+</div>
+
+
+</form>
+
+<!--script-->
+<script src="script.js"></script>
+
+<div>
+<input type="checkbox">I hereby agree to the Alibaba Cloud International Website Membership </p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Agreement, Privacy Policy, Product Terms and Terms of Use, under which I am </p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  contracting with Alibaba Cloud (Singapore) Private Limited.</br>
+</div>
+<button type="button" class="submit">Confirm</button>
+</p>
+<div>Already a member? 
+<a target="_blank" href="//account.alibabacloud.com/login/login.htm"> Sign In </a></div>
+</div>
+
+
+
+</body>
+</html>
